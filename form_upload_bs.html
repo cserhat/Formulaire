@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+        <div class="container">
+            
+            <img src="img/simplon.svg"  height="200px" width="200px" alt="" class="d-inline-block align-text-top">
+            <h1 class="text-center fixed-top">Formulaire Simple avec Bootstrap</h1>
+        </div>
+    <div class="container border border-gray rounded">
+        <form action="post.php" method="post">
+            <div class=" mb-3" >
+                <label for="exampleFormControlInput1" class="form-label">Votre Nom: (*)</label>
+                <input name="name" type="text" class="form-control form-control-md" id="exampleFormControlInput1" placeholder="Veuille saiser votre nom">
+              </div>
+            <div class="mb-3" >
+                <label for="exampleFormControlInput1" class="form-label">Votre Prenom: (*)</label>
+                <input name="prenom" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Veuille saiser votre prenom">
+             </div>
+            <div class="mb-3" >
+                <label for="exampleFormControlInput1" class="form-label">Email address (*)</label>
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Veuille saiser votre Email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Votre Message</label>
+                <textarea name="mesage" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+        <label class="form-label" for="customFile">Votre Cv</label>
+        <input name="cv" type="file" class="form-control" id="customFile" />
+        
+        <div class="mb-3 text-end">
+        <button type="submit" class="btn btn-secondary">Envoyer</button>
+        </div>
+
+
+    </form>
+    </div>
+</body>
+</html>
